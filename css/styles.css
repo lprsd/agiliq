@@ -32,17 +32,12 @@ q:before, q:after {
 	content: none;
 }
 html { height:101%;}
-body.home { background:url(../images/home_bg.jpg) repeat-x; font:14px Arial, Helvetica, sans-serif; } 
-body.whoweare { background:url(../images/whoweare_bg.gif) repeat-x; font:14px Arial, Helvetica, sans-serif; } 
-body.whatwedo { background:url(../images/whatwedo_bg.gif) repeat-x; font:14px Arial, Helvetica, sans-serif; } 
-body.ourwork { background:url(../images/ourwork_bg.gif) repeat-x; font:14px Arial, Helvetica, sans-serif; } 
-body.contactbg { background:url(../images/contact_bg.gif) repeat-x; font:14px Arial, Helvetica, sans-serif; font:13px  Helvetica, Arial, sans-serif;} 
 
 
 h1{font:bold 36px Helvetica, Arial, sans-serif; color:#FFFFFF; text-decoration:none; line-height:48px; text-transform:uppercase; vertical-align:middle; letter-spacing:-2px;}
 
-.mailink{font:bold 36px Helvetica, Arial, sans-serif; color:#FFFFFF; text-decoration:none; line-height:48px; text-transform:uppercase; vertical-align:middle; letter-spacing:-2px;}
-.mailink:hover{font:bold 36px Helvetica, Arial, sans-serif; color:#000; text-decoration:none; line-height:48px; text-transform:uppercase; vertical-align:middle; letter-spacing:-2px;}
+.mailink{font:bold 36px Helvetica, Arial, sans-serif; color:#FFFFFF; text-decoration:none; line-height:48px;  vertical-align:middle; letter-spacing:-2px;}
+.mailink:hover{font:bold 36px Helvetica, Arial, sans-serif; color:#FC0; text-decoration:none; line-height:48px; vertical-align:middle; letter-spacing:-2px;}
 
 h1 .black{color:#000000;}
 
@@ -90,6 +85,8 @@ fieldset{border:1px solid #DCDCDC; padding:20px;}
 
 .redlink{font:12px  Arial, Helvetica, sans-serif; color:#A1001B; line-height:16px; text-decoration:underline;}
 .redlink:hover{font:12px  Arial, Helvetica, sans-serif; color:#000; line-height:16px; text-decoration:underline;}
+.blacklink{font:12px  Arial, Helvetica, sans-serif; color:#000; line-height:16px; text-decoration:none;}
+.blacklink:hover{font:12px  Arial, Helvetica, sans-serif; color:#000; line-height:16px; text-decoration:underline;}
 
 
 #maincontainer{width:960px; margin:0px auto; }
@@ -133,7 +130,7 @@ fieldset{border:1px solid #DCDCDC; padding:20px;}
 #banner #contactgraphic{width:340px;  height:318px; float:left;  background:url(../images/contact_graphic.png) no-repeat; background-position:bottom right;}
 
 #bodycontent{width:960px; margin:0px auto; margin-top:20px; }
-#bodycontent #leftpanel{width:640px; float:left; margin-right:20px; clear:both; }
+#bodycontent #leftpanel{width:640px; float:left; margin-right:20px; clear:both; border-top:8px solid #eea235;}
 #bodycontent #rightpanel{width:300px; float:right; }
 #hireblock{background-color:#F1F1F1; border-top:8px solid #eea235; border-bottom:1px solid #dadada; padding:10px 20px 10px 20px; margin:0 0 10px 0px;}
 #hireblock img{ float:right;}
@@ -144,8 +141,8 @@ fieldset{border:1px solid #DCDCDC; padding:20px;}
 #twitterblock{background-color:#F1F1F1; border-top:8px solid #00adef; border-bottom:1px solid #dadada; padding:10px 20px 10px 20px; margin:0 0 10px 0px;}
 #twitterblock img{ float:right;}
 
-#pagecontent{border:1px solid #d2d2d2; padding:20px; margin-bottom:10px;}
-#testimonials{border:1px solid #d2d2d2; padding:20px;}
+#pagecontent{ padding:12px 20px 20px 20px; margin-bottom:10px;}
+#testimonials{/*border:1px solid #d2d2d2;*/ padding:20px 20px 0px 20px;}
 
 .profile {background-color:#F5F5F5; padding:20px; margin-bottom:10px; }
 .profile .left{ width:140px; float:left; }
@@ -167,3 +164,7 @@ fieldset{border:1px solid #DCDCDC; padding:20px;}
 
 .hr{height:1px; border-bottom:1px solid #DCDCDC;}
 .clear{clear:both;}
+.blockquote { clear:both; margin:0px 0px 0px 0px; padding:3px; color:#2A2A2A; padding: 0 24px; background: url(../images/quote.gif) no-repeat 0 0;}
+.clientname{font:bold 12px Arial, Helvetica, sans-serif; color:#000; text-decoration:none;font-style:italic;}
+.companyname{font:12px Arial, Helvetica, sans-serif; color:#000; text-decoration:none; font-style:italic;}
+p.right{float:right; text-align:right;}
